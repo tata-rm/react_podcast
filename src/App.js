@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+      logo
+      sobre o site - abrir overlay no meio
       </header>
+      
+      <h1>Sua lista de podcasts:</h1>
+      <p id='p'>Adicione na tabela podcasts que já escutou ou quer escutar e seus feedbacks sobre cada um!</p>
+      <main>
+        <div id='esquerda'>
+          <h3>
+            Adicione uma linha:
+          </h3>
+          <h3>
+            Remova uma linha:
+          </h3>
+          <h3>
+            Edite uma linha:
+          </h3>
+        </div>
+        <div id='direita'>
+          tabela
+        </div>
+      </main>
     </div>
   );
 }
