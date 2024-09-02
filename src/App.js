@@ -1,30 +1,16 @@
 import './App.css';
+import TabelaPodcasts from './componentes/tabela';
 
 function App() {
   return (
+    
     <div className="App">
       <header>
-      logo
-      sobre o site - abrir overlay no meio
+        <br/>
+        Sua lista de podcasts
       </header>
-      
-      <h1>Sua lista de podcasts:</h1>
-      <p id='p'>Adicione na tabela podcasts que já escutou ou quer escutar e seus feedbacks sobre cada um!</p>
       <main>
-        <div id='esquerda'>
-          <h3>
-            Adicione uma linha:
-          </h3>
-          <h3>
-            Remova uma linha:
-          </h3>
-          <h3>
-            Edite uma linha:
-          </h3>
-        </div>
-        <div id='direita'>
-          tabela
-        </div>
+        <TabelaPodcasts />
       </main>
     </div>
   );
